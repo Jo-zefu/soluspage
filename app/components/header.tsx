@@ -13,10 +13,10 @@ const Header = () => {
         {/* Logo */}
         <a href="#" aria-label="Solus home">
           <Image
-            src="/soluslogo.svg"
-            alt="Solus logo"
-            width={100}
-            height={28}
+            src="/solelogo.svg"
+            alt="Sole Studio logo"
+            width={220}
+            height={100}
             priority
           />
         </a>

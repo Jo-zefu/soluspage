@@ -11,7 +11,7 @@ const Hero = () => {
         {/* Text */}
         <div>
           <span className="inline-block text-xs font-semibold tracking-widest text-purple-600 uppercase mb-4">
-            Welcome to Solus
+            Welcome to Sole Studio 
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
             Built by{" "}
@@ -55,13 +55,13 @@ const Hero = () => {
           <div className="relative w-full max-w-md aspect-square">
             {/* Decorative blobs */}
             <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-purple-100 to-teal-100 rotate-3" />
-            <div className="relative rounded-3xl overflow-hidden bg-white shadow-2xl p-8 flex items-center justify-center">
+            <div className="relative rounded-3xl overflow-hidden bg-white shadow-2xl p-8 flex items-center justify-center h-full">
               <Image
-                src="/solusmeta.svg"
+                src="/hero-section.jpg"
                 alt="Team collaboration illustration"
                 width={360}
                 height={360}
-                className="w-full h-auto"
+                className="w-full h-auto scale-110"
                 priority
               />
             </div>

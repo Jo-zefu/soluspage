@@ -158,7 +158,7 @@ export const testimonials = [
   {
     id: 1,
     quote:
-      "Solus transformed our digital presence completely. The team's attention to detail and strategic thinking set them apart from any agency we've worked with.",
+      "Sole Studio transformed our digital presence completely. The team's attention to detail and strategic thinking set them apart from any agency we've worked with.",
     name: "Sarah Mitchell",
     role: "CEO, TechVentures",
     avatar: "SM",
@@ -176,7 +176,7 @@ export const testimonials = [
   {
     id: 3,
     quote:
-      "Our conversion rate increased by 40% after the redesign. The data-driven approach Solus brought to the project made all the difference.",
+      "Our conversion rate increased by 40% after the redesign. The data-driven approach Sole Studio  brought to the project made all the difference.",
     name: "Priya Nair",
     role: "Head of Growth, Scalr",
     avatar: "PN",

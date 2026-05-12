@@ -2,8 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Solus Page",
-  description: "A simple landing page built with Next.js and Tailwind CSS.",
+  title: "Sole Studio",
+  description: "Sole Studio — custom product strategy and website development for ambitious brands.",
+  icons: {
+    icon: "/sole-favicon.svg",
+    shortcut: "/sole-favicon.svg",
+    apple: "/sole-favicon.svg",
+  },
 };
 
 export default function RootLayout({

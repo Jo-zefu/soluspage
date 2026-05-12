@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <Image
               src="/soluslogo.svg"
-              alt="Solus logo"
+              alt="Sole Studio  logo"
               width={90}
               height={24}
               className="invert mb-4"
@@ -45,7 +45,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-600">
-            © {new Date().getFullYear()} Solus. All rights reserved.
+            © {new Date().getFullYear()} Sole Studio. All rights reserved.
           </p>
           <div className="flex gap-6">
             {["Twitter", "LinkedIn", "GitHub"].map((social) => (
