@@ -9,14 +9,14 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Image
-              src="/soluslogo.svg"
-              alt="Sole Studio  logo"
-              width={90}
-              height={24}
-              className="invert mb-4"
+              src="/solelogo-white.svg"
+              alt="Sole Studio logo"
+              width={160}
+              height={80}
+              className="mb-4"
             />
             <p className="text-sm leading-relaxed text-gray-500 max-w-xs">
-              Building digital products that people love, with teams that care.
+              Custom product strategy and website development for ambitious brands.
             </p>
           </div>
 

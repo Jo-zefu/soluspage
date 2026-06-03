@@ -72,27 +72,30 @@ export const caseStudies = [
     tag: "Mobile App",
     title: "Fintech Dashboard",
     description:
-      "A modern financial management app with real-time analytics and seamless UX.",
-    color: "bg-pink-400",
-    textColor: "text-white",
+      "Born out of a vision to simplify personal finance, we designed and built a mobile-first dashboard with real-time analytics, smart budgeting tools, and a seamless onboarding flow. The result was a 60% increase in daily active users within the first quarter of launch.",
+    panelBg: "bg-indigo-100",
+    screens: ["bg-white", "bg-indigo-50", "bg-white"],
+    accentColor: "text-indigo-600",
   },
   {
     id: 2,
     tag: "Web Platform",
     title: "E-Commerce Suite",
     description:
-      "End-to-end shopping experience with personalised recommendations and fast checkout.",
-    color: "bg-teal-400",
-    textColor: "text-white",
+      "We partnered with a fast-growing retail brand to rebuild their e-commerce platform from the ground up. The new platform features personalised recommendations, a streamlined checkout, and a headless CMS — cutting page load times by 70% and boosting conversion by 35%.",
+    panelBg: "bg-teal-100",
+    screens: ["bg-white", "bg-teal-50", "bg-white"],
+    accentColor: "text-teal-600",
   },
   {
     id: 3,
     tag: "SaaS",
     title: "Project Management Tool",
     description:
-      "Collaborative workspace with kanban boards, time tracking, and team analytics.",
-    color: "bg-purple-500",
-    textColor: "text-white",
+      "A collaborative SaaS workspace built for distributed teams. We delivered kanban boards, time tracking, team analytics, and deep integrations with Slack and GitHub — all within a clean, accessible interface that reduced onboarding time by half.",
+    panelBg: "bg-pink-100",
+    screens: ["bg-white", "bg-pink-50", "bg-white"],
+    accentColor: "text-pink-600",
   },
 ];
 
@@ -201,3 +204,4 @@ export const footerLinks = {
   Resources: ["Blog", "Case Studies", "Documentation", "Community"],
   Legal: ["Privacy Policy", "Terms of Service", "Cookie Policy"],
 };
+

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="pt-32 pb-20 px-6 bg-gradient-to-br from-purple-50 via-white to-teal-50"
+      className="pt-32 pb-20 px-6 bg-linear-to-br from-purple-50 via-white to-teal-50"
     >
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Text */}
@@ -15,10 +15,11 @@ const Hero = () => {
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
             Built by{" "}
-            <span className="text-purple-600">great</span>{" "}
+            <span className="bg-linear-to-b from-[#DE4396] from-60% to-[#0D1C9F] bg-clip-text text-transparent">great</span>{" "}
             teams,{" "}
             <br className="hidden sm:block" />
-            for great products.
+            for great{" "}
+            <span className="bg-linear-to-tr from-[#406AFF] to-[#F7666F] bg-clip-text text-transparent">products</span>.
           </h1>
           <p className="text-lg text-gray-500 leading-relaxed mb-8 max-w-md">
             We partner with ambitious companies to design, build, and scale
@@ -53,18 +54,26 @@ const Hero = () => {
         {/* Illustration */}
         <div className="flex justify-center">
           <div className="relative w-full max-w-md aspect-square">
+             <Image
+                src="/heroImage.avif"
+                alt="Team collaboration illustration"
+                width={360}
+                height={360}
+                className="w-full h-auto object-contain"
+                priority
+              />
             {/* Decorative blobs */}
-            <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-purple-100 to-teal-100 rotate-3" />
+            {/* <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-purple-100 to-teal-100 rotate-3" />
             <div className="relative rounded-3xl overflow-hidden bg-white shadow-2xl p-8 flex items-center justify-center h-full">
               <Image
-                src="/hero-section.jpg"
+                src="/heroImage.avif"
                 alt="Team collaboration illustration"
                 width={360}
                 height={360}
                 className="w-full h-auto scale-110"
                 priority
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
