@@ -1,7 +1,10 @@
 import Image from "next/image";
-import { footerLinks } from "../../constants";
+import { useFooterLinks } from "../../constants";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations('Footer');
+  const footerLinks = useFooterLinks();
   return (
     <footer className="bg-gray-900 text-gray-400 pt-16 pb-8 px-6">
       <div className="max-w-7xl mx-auto">
@@ -16,7 +19,7 @@ const Footer = () => {
               className="mb-4"
             />
             <p className="text-sm leading-relaxed text-gray-500 max-w-xs">
-              Custom product strategy and website development for ambitious brands.
+              {t('description')}
             </p>
           </div>
 
@@ -45,7 +48,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-600">
-            © {new Date().getFullYear()} Sole Studio. All rights reserved.
+            {t('rightsReserved', { year: new Date().getFullYear() })}
           </p>
           <div className="flex gap-6">
             {["Twitter", "LinkedIn", "GitHub"].map((social) => (

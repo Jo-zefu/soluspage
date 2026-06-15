@@ -1,11 +1,13 @@
 import { partnerLogos } from "../../constants";
+import { useTranslations } from "next-intl";
 
 const Partners = () => {
+  const t = useTranslations('Partners');
   return (
     <section className="py-20 px-6 bg-white border-t border-gray-100">
       <div className="max-w-7xl mx-auto">
         <p className="text-center text-xs font-semibold tracking-widest text-gray-400 uppercase mb-10">
-          Tools &amp; partners we love
+          {t('toolsAndPartners')}
         </p>
         <div className="grid grid-cols-4 sm:grid-cols-8 gap-6 items-center justify-items-center">
           {partnerLogos.map((name) => (

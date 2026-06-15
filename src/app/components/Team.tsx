@@ -1,19 +1,21 @@
-import { teamMembers } from "../../constants";
+import { useTeamMembers } from "../../constants";
+import { useTranslations } from "next-intl";
 
 const Team = () => {
+  const t = useTranslations('Team');
+  const teamMembers = useTeamMembers();
   return (
     <section id="blog" className="py-24 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="inline-block text-xs font-semibold tracking-widest text-purple-600 uppercase mb-4">
-            The team
+            {t('theTeam')}
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-            Meet the people behind the work
+            {t('meetThePeople')}
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
-            A diverse group of designers, engineers, and strategists united by a
-            shared passion for building great products.
+            {t('description')}
           </p>
         </div>
 

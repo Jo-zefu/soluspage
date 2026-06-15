@@ -1,0 +1,137 @@
+{
+    "nav": {
+        "about": "About us",
+        "services": "Services",
+        "caseStudies": "Case Studies",
+        "blog": "Blog",
+        "howItWorks": "How it works"
+    },
+    "Header": {
+        "contactus": "Contact us"
+    },
+    "Hero": {
+        "title": "Welcome to Sole Studio",
+        "slogan": "Built by <word1>great</word1> teams, <br-desk></br-desk>for great <word2>products</word2>.",
+        "p": "We partner with ambitious companies to design, build, and scale digital products that people love to use.",
+        "ourservices": "Our services",
+        "viewCaseStudies": "View case studies"
+    },
+    "About": {
+        "aboutus": "ABOUT US",
+        "title": "We are a team of passionate builders and thinkers.",
+        "p": "<p1>Sole Studio is a full-service digital agency founded on the belief that great products come from great collaboration. We embed ourselves in your team, learn your domain, and deliver work that moves the needle.</p1><p2>From early-stage startups to established enterprises, we bring the same level of craft and strategic thinking to every engagement.</p2>",
+        "features": {
+            "point1": "Human-centred design at every stage",
+            "point2": "Agile delivery with full transparency",
+            "point3": "Long-term partnerships, not one-off projects"
+        },
+        "imageCaption": "Building the future, together"
+    },
+    "CaseStudies": {
+        "ourWork": "Our work",
+        "ourRecent": "Our recent",
+        "caseStudies": "Case studies",
+        "caseStudy1": {
+            "tag": "Mobile App",
+            "title": "Fintech Dashboard",
+            "description": "Born out of a vision to simplify personal finance, we designed and built a mobile-first dashboard with real-time analytics, smart budgeting tools, and a seamless onboarding flow. The result was a 60% increase in daily active users within the first quarter of launch."
+        },
+        "caseStudy2": {
+            "tag": "Web Platform",
+            "title": "E-Commerce Suite",
+            "description": "We partnered with a fast-growing retail brand to rebuild their e-commerce platform from the ground up. The new platform features personalised recommendations, a streamlined checkout, and a headless CMS — cutting page load times by 70% and boosting conversion by 35%."
+        },
+        "caseStudy3": {
+            "tag": "SaaS",
+            "title": "Project Management Tool",
+            "description": "A collaborative SaaS workspace built for distributed teams. We delivered kanban boards, time tracking, team analytics, and deep integrations with Slack and GitHub — all within a clean, accessible interface that reduced onboarding time by half."
+        },
+        "readMore": "Read more"
+    },
+    "Services": {
+        "whatWeDo": "What we do",
+        "servicesWeOffer": "Services we offer",
+        "description": "We offer end-to-end digital services — from strategy and design through to engineering and growth.",
+        "service1": {
+            "title": "UI/UX Design",
+            "description": "We craft intuitive, beautiful interfaces that delight users and drive engagement across every touchpoint."
+        },
+        "service2": {
+            "title": "Web Development",
+            "description": "From landing pages to complex web apps, we build fast, scalable, and accessible digital experiences."
+        },
+        "service3": {
+            "title": "Mobile Apps",
+            "description": "Native and cross-platform mobile applications built with performance and user experience in mind."
+        },
+        "service4": {
+            "title": "Digital Strategy",
+            "description": "Data-driven strategies that align your digital presence with your business goals and growth targets."
+        },
+        "service5": {
+            "title": "SEO & Growth",
+            "description": "Organic growth through technical SEO, content strategy, and conversion rate optimisation."
+        },
+        "service6": {
+            "title": "Cloud & DevOps",
+            "description": "Reliable infrastructure, CI/CD pipelines, and cloud architecture that scales with your product."
+        }
+    },
+    "Team": {
+        "theTeam": "The team",
+        "meetThePeople": "Meet the people behind the work",
+        "description": "A diverse group of designers, engineers, and strategists united by a shared passion for building great products."
+    },
+    "Footer": {
+        "description": "Custom product strategy and website development for ambitious brands.",
+        "company": "Company",
+        "services": "Services",
+        "resources": "Resources",
+        "legal": "Legal",
+        "rightsReserved": "© {year} Sole Studio. All rights reserved."
+    },
+    "HowItWorks": {
+        "ourProcess": "Our process",
+        "howItWorks": "How it works",
+        "description": "A clear, collaborative process that keeps you informed and in control at every stage.",
+        "step1": {
+            "title": "Discovery & Strategy",
+            "description": "We start by understanding your goals, audience, and competitive landscape to define a clear roadmap."
+        },
+        "step2": {
+            "title": "Design & Prototype",
+            "description": "Our designers create wireframes and high-fidelity prototypes, iterating with your feedback at every stage."
+        },
+        "step3": {
+            "title": "Build & Test",
+            "description": "Engineers bring the designs to life with clean, tested code and rigorous QA across devices and browsers."
+        },
+        "step4": {
+            "title": "Launch & Grow",
+            "description": "We deploy your product, monitor performance, and continue optimising based on real user data."
+        }
+    },
+    "Testimonials": {
+        "whyCustomersLove": "Why customers love",
+        "workingWithUs": "working with us",
+        "testimonial1": "Sole Studio transformed our digital presence completely. The team's attention to detail and strategic thinking set them apart from any agency we've worked with.",
+        "testimonial2": "From concept to launch in eight weeks. The quality of work and communication throughout the project was exceptional. Highly recommend.",
+        "testimonial3": "Our conversion rate increased by 40% after the redesign. The data-driven approach Sole Studio brought to the project made all the difference."
+    },
+    "Stats": {
+        "projectsCompleted": "Projects completed",
+        "happyClients": "Happy clients",
+        "yearsExperience": "Years experience",
+        "teamMembers": "Team members"
+    },
+    "Partners": {
+        "toolsAndPartners": "Tools & partners we love"
+    },
+  
+    "CTA": {
+        "readyToBuild": "Ready to build something great?",
+        "tellUsAbout": "Tell us about your project and we'll get back to you within one business day.",
+        "enterYourEmail": "Enter your email",
+        "getInTouch": "Get in touch"
+    }
+}

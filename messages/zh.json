@@ -1,0 +1,136 @@
+{
+    "nav": {
+        "about": "关于我们",
+        "services": "服务",
+        "caseStudies": "案例",
+        "blog": "博客",
+        "howItWorks": "落地流程"
+    },
+    "Header": {
+        "contactus": "联系我们"
+    },
+    "Hero": {
+        "title": "欢迎来到 Sole Studio",
+        "slogan": "由<word1>卓越</word1>团队打造，<br-desk></br-desk>成就优质<word2>产品</word2>。",
+        "p": "我们与有抱负的公司合作，设计、构建和扩展人们喜爱使用的数字产品。",
+        "ourservices": "我们的服务",
+        "viewCaseStudies": "查看案例"
+    },
+    "About": {
+        "aboutus": "关于我们",
+        "title": "我们是一支充满热情、富有创造力的建设者和思考者团队。",
+        "p": "<p1>Sole Studio是一家提供全方位服务的数字营销机构，我们坚信卓越的产品源于卓越的协作。我们深入您的团队，了解您的领域，并交付能够真正推动业务增长的作品。</p1><p2>从早期创业公司到成熟企业，我们对每一次合作都秉持同样的专业水准和战略思维。</p2>",
+        "features": {
+            "point1": "全流程以人为本的设计",
+            "point2": "敏捷交付，全程透明可视",
+            "point3": "长期伙伴关系，而非一次性项目"
+        },
+        "imageCaption": "共同构建未来"
+    },
+    "CaseStudies": {
+        "ourWork": "我们的作品",
+        "ourRecent": "我们近期",
+        "caseStudies": "案例研究",
+        "caseStudy1": {
+            "tag": "移动应用",
+            "title": "金融科技仪表板",
+            "description": "源于简化个人财务的愿景，我们设计并构建了一个移动优先的仪表板，具备实时分析、智能预算工具和无缝的入门流程。结果是在发布后的第一季度内，日活跃用户增长了60%。"
+        },
+        "caseStudy2": {
+            "tag": "网络平台",
+            "title": "电子商务套件",
+            "description": "我们与一家快速增长的零售品牌合作，从零开始重建其电子商务平台。新平台具有个性化推荐、简化结账和无头CMS功能——将页面加载时间缩短了70%，并将转化率提高了35%。"
+        },
+        "caseStudy3": {
+            "tag": "SaaS",
+            "title": "项目管理工具",
+            "description": "为分布式团队构建的协作式SaaS工作空间。我们交付了看板、时间跟踪、团队分析以及与Slack和GitHub的深度集成——所有这些都包含在一个简洁、可访问的界面中，将入门时间减半。"
+        },
+        "readMore": "阅读更多"
+    },
+    "Services": {
+        "whatWeDo": "我们的服务",
+        "servicesWeOffer": "我们提供的服务",
+        "description": "我们提供端到端的数字服务——从战略和设计到工程和增长的全方位支持。",
+        "service1": {
+            "title": "UI/UX设计",
+            "description": "我们打造直观、美观的界面，让用户愉悦并在每个接触点保持参与度。"
+        },
+        "service2": {
+            "title": "Web开发",
+            "description": "从落地页到复杂的Web应用，我们构建快速、可扩展且易于访问的数字体验。"
+        },
+        "service3": {
+            "title": "移动应用",
+            "description": "原生和跨平台的移动应用程序，兼顾性能和用户体验。"
+        },
+        "service4": {
+            "title": "数字战略",
+            "description": "数据驱动的战略，将您的数字存在与业务目标和增长目标对齐。"
+        },
+        "service5": {
+            "title": "SEO与增长",
+            "description": "通过技术SEO、内容策略和转化率优化实现有机增长。"
+        },
+        "service6": {
+            "title": "云与DevOps",
+            "description": "可靠的基础设施、CI/CD流水线和随产品扩展的云架构。"
+        }
+    },
+    "Team": {
+        "theTeam": "团队",
+        "meetThePeople": "认识幕后功臣",
+        "description": "一支多元化的设计师、工程师和策略师团队，怀着对打造优秀产品的共同热情。"
+    },
+    "Footer": {
+        "description": "为有抱负的品牌提供定制产品策略和网站开发。",
+        "company": "公司",
+        "services": "服务",
+        "resources": "资源",
+        "legal": "法律",
+        "rightsReserved": "© {year} Sole Studio 版权所有。"
+    },
+    "HowItWorks": {
+        "ourProcess": "我们的流程",
+        "howItWorks": "如何运作",
+        "description": "一个清晰、协作的流程，让您在每个阶段都保持知情和掌控。",
+        "step1": {
+            "title": "发现与策略",
+            "description": "我们首先了解您的目标、受众和竞争格局，以制定清晰的路线图。"
+        },
+        "step2": {
+            "title": "设计与原型",
+            "description": "我们的设计师创建线框和高保真原型，在每个阶段都与您的反馈进行迭代。"
+        },
+        "step3": {
+            "title": "构建与测试",
+            "description": "工程师使用干净、经过测试的代码以及跨设备和浏览器的严格质量保证，将设计变为现实。"
+        },
+        "step4": {
+            "title": "发布与增长",
+            "description": "我们部署您的产品，监控性能，并根据实际用户数据继续优化。"
+        }
+    },
+    "Testimonials": {
+        "whyCustomersLove": "客户为何喜爱",
+        "workingWithUs": "与我们合作",
+        "testimonial1": "Sole Studio彻底改变了我们的数字形象。团队对细节的关注和战略性思维使他们与我们所合作过的任何机构都不同。",
+        "testimonial2": "从概念到发布仅用了八周时间。整个项目中的工作质量和沟通都非常出色。强烈推荐。",
+        "testimonial3": "重新设计后，我们的转化率提高了40%。Sole Studio为项目带来的数据驱动方法起到了决定性作用。"
+    },
+    "Stats": {
+        "projectsCompleted": "完成项目",
+        "happyClients": "满意客户",
+        "yearsExperience": "年经验",
+        "teamMembers": "团队成员"
+    },
+    "Partners": {
+        "toolsAndPartners": "我们喜爱的工具和合作伙伴"
+    },
+    "CTA": {
+        "readyToBuild": "准备好打造出色的产品了吗？",
+        "tellUsAbout": "告诉我们您的项目，我们会在一个工作日内回复您。",
+        "enterYourEmail": "输入您的邮箱",
+        "getInTouch": "联系我们"
+    }
+}

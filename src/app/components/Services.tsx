@@ -1,9 +1,12 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { services } from "../../constants";
+import { useServices } from "../../constants";
+import { useTranslations } from "next-intl";
 
 const Services = () => {
+  const t = useTranslations('Services');
+  const services = useServices();
   const [active, setActive] = useState(0);
   const total = services.length;
   const trackRef = useRef<HTMLDivElement>(null);
@@ -25,14 +28,13 @@ const Services = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <span className="inline-block text-xs font-semibold tracking-widest text-purple-600 uppercase mb-4">
-            What we do
+            {t('whatWeDo')}
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-            Services we offer
+            {t('servicesWeOffer')}
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
-            We offer end-to-end digital services — from strategy and design
-            through to engineering and growth.
+            {t('description')}
           </p>
         </div>
 

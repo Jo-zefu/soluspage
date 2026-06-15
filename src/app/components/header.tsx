@@ -2,9 +2,12 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { navLinks } from "../../constants";
+import { useNavLinks } from "../../constants";
+import { useTranslations } from "next-intl";
 
 const Header = () => {
+  const navLinks = useNavLinks()
+  const t = useTranslations('Header')
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -22,7 +25,7 @@ const Header = () => {
         </a>
 
         {/* Desktop nav */}
-        <nav aria-label="Main navigation">
+        <nav aria-label="Main navigation">                                                                                                                              
           <ul className="hidden md:flex items-center gap-8">
             {navLinks.map(({ id, name, href }) => (
               <li key={id}>
@@ -40,9 +43,9 @@ const Header = () => {
         {/* CTA */}
         <a
           href="#contact"
-          className="hidden md:inline-flex items-center px-5 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold hover:bg-purple-700 transition-colors"
+          className="hidden md:inline-flex items-center px-5 py-2 rounded-2xl bg-purple-600 text-white text-sm font-semibold hover:bg-purple-700 transition-colors"
         >
-          Contact us
+          {t("contactus")}
         </a>
 
         {/* Mobile hamburger */}
@@ -79,7 +82,7 @@ const Header = () => {
             className="mt-4 inline-flex items-center px-5 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold"
             onClick={() => setMenuOpen(false)}
           >
-            Contact us
+            {t("contactus")}
           </a>
         </div>
       )}

@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { testimonials } from "../../constants";
+import { useTestimonials } from "../../constants";
+import { useTranslations } from "next-intl";
 
 const StarRating = ({ active }: { active: boolean }) => (
   <div className="flex gap-0.5 justify-center mt-2">
@@ -21,6 +22,8 @@ const StarRating = ({ active }: { active: boolean }) => (
 );
 
 const Testimonials = () => {
+  const t = useTranslations('Testimonials');
+  const testimonials = useTestimonials();
   const [active, setActive] = useState(0);
   const total = testimonials.length;
 
@@ -37,9 +40,9 @@ const Testimonials = () => {
         <div className="text-center mb-12">
           <div className="w-10 h-1 bg-purple-600 mx-auto mb-6 rounded-full" />
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-snug">
-            Why customers love
+            {t('whyCustomersLove')}
             <br />
-            <span className="font-extrabold">working with us</span>
+            <span className="font-extrabold">{t('workingWithUs')}</span>
           </h2>
         </div>
 

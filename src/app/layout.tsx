@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import {NextIntlClientProvider} from 'next-intl'
+import {getMessages} from 'next-intl/server'
 
 export const metadata: Metadata = {
   title: "Sole Studio",
@@ -11,14 +13,18 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const messages = await getMessages()
+  
   return (
-    <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex ">{children}</body>
+    <html lang={messages._locale} className="h-full antialiased">
+      <body className="min-h-full flex ">
+        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
+        </body>
     </html>
   );
 }

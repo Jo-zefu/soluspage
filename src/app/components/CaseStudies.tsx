@@ -1,4 +1,5 @@
-import { caseStudies } from "../../constants";
+import { useCaseStudies } from "../../constants";
+import { useTranslations } from "next-intl";
 
 // Mock phone screen — three staggered phones like in the reference design
 const PhoneMockup = ({ bg }: { bg: string }) => (
@@ -22,17 +23,20 @@ const PhoneMockup = ({ bg }: { bg: string }) => (
 );
 
 const CaseStudies = () => {
+  const t = useTranslations('CaseStudies');
+  const caseStudies = useCaseStudies();
+
   return (
     <section id="case" className="py-24 px-6 bg-white/90">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-14">
           <span className="inline-block text-xs font-semibold tracking-widest text-purple-600 uppercase mb-3">
-            Our work
+            {t('ourWork')}
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900">
-            Our recent{" "}
-            <span className="block">Case studies</span>
+            {t('ourRecent')}{" "}
+            <span className="block">{t('caseStudies')}</span>
           </h2>
         </div>
 
@@ -74,7 +78,7 @@ const CaseStudies = () => {
                   href="#"
                   className={`inline-flex items-center gap-1 text-sm font-semibold ${accentColor} hover:opacity-70 transition-opacity self-end`}
                 >
-                  Read more
+                  {t('readMore')}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-4 h-4"

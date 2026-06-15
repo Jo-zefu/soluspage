@@ -1,19 +1,21 @@
-import { howItWorks } from "../../constants";
+import { useHowItWorks } from "../../constants";
+import { useTranslations } from "next-intl";
 
 const HowItWorks = () => {
+  const t = useTranslations('HowItWorks');
+  const howItWorks = useHowItWorks();
   return (
     <section id="how" className="py-24 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="inline-block text-xs font-semibold tracking-widest text-purple-600 uppercase mb-4">
-            Our process
+            {t('ourProcess')}
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">
-            How it works
+            {t('howItWorks')}
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
-            A clear, collaborative process that keeps you informed and in
-            control at every stage.
+            {t('description')}
           </p>
         </div>
 
